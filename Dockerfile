@@ -1,8 +1,8 @@
-FROM supabase/postgres:15.8.1.038_arm64
+FROM supabase/postgres:17.0.1.34-orioledb
 
 # Install Supabase CLI
 RUN apt update && apt install -y curl wget unzip && \
-     curl -fsSL https://get.supabase.com/install | sh
+    curl -fsSL https://get.supabase.com/install | sh
 
 # Define build arguments
 ARG DATABASE_URL
