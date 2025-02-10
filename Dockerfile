@@ -1,4 +1,4 @@
-FROM supabase/postgres:latest
+FROM supabase/postgres:15.8.1.038
 
 # Define build arguments
 ARG DATABASE_URL
