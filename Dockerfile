@@ -1,4 +1,4 @@
-FROM supabase/postgres:15
+FROM supabase/postgres:15.8.1.038_arm64
 
 # Install Supabase CLI
 RUN apt update && apt install -y curl wget unzip && \
